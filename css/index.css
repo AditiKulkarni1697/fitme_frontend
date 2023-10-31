@@ -297,9 +297,13 @@ button{
        padding: 5px;
     }
 
-    #choose>div:last-child{
-        display: grid;
-        grid-template-rows: 0fr 1fr ;
-        text-align: center;
+    #choose{
+        grid-template-columns: 1fr ;
+    }
+
+    .trainer{
+        
+        grid-template-columns: 1fr;
+        
     }
 }
