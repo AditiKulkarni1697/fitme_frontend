@@ -49,7 +49,7 @@ let nav_menu2 = document.getElementById("nav-menu2")
 
 hamburger_menu.addEventListener("click",(e)=>{
     e.preventDefault()
-    if(nav_menu2.style.display === "none"){
+    if(nav_menu2.style.display === "none"||nav_menu2.style.display===""){
     nav_menu2.style.display = "block"
     }
     else{
